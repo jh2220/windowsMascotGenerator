@@ -9,7 +9,7 @@ app.use(express.static('files'))
 
 let count = 0;
 
-const mascotsFiles = ['clippy', 'rover', 'merlin','bonzi','links','genie']
+const mascotsFiles = ['rover', 'merlin','bonzi','links','genie']
 
 app.get('/', (req, res) => {
 
